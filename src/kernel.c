@@ -5,6 +5,7 @@
 #include <cpu/idt.h>
 #include <cod/animation.h>
 #include <shell/auth.h>
+#include <shell/shell.h>
 
 void kernel_main(struct multiboot_info *mbi) {
     gdt_init();
