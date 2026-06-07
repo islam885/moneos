@@ -1,5 +1,5 @@
 CC := gcc
-CFLAGS := -m32 -ffreestanding -fno-pie -fno-stack-protector -Wall -Wextra -Iinclude
+CFLAGS := -m32 -ffreestanding -fno-pie -fno-stack-protector -Wall -Wextra -Iinclude -Isrc
 LDFLAGS := -m32 -ffreestanding -nostdlib -no-pie -T linker.ld
 
 # Находим все .c файлы в src и подпапках
